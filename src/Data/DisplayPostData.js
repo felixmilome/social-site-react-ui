@@ -20,7 +20,7 @@ export const DisPlayPostData =[
       profilepicture:DPimg1,
       img:img1,
       datetime:"April 01, 2023 12:05 AM",
-      body:"Im Happy Joining Chatlink",
+      body:"Im Happy Joining Social",
       like: 44,
       comment:10
     },

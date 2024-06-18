@@ -18,7 +18,7 @@ const Nav = ({search,setSearch,setShowMenu,profileImg}) => {
     <nav>
         <div className="n-logo">
             <Link to="/home" className='logo' style={{color:"black",textDecoration:"none"}}>
-              <h1><span>Chatlink</span></h1>
+              <h1><span>Social</span></h1>
             </Link>
         </div>
 
@@ -27,7 +27,7 @@ const Nav = ({search,setSearch,setShowMenu,profileImg}) => {
         <form className='n-form' onSubmit={(e)=>e.preventDefault()} >
           <SearchIcon className='search-icon'/>
           <input type="text" 
-          placeholder='Search ChatLink'
+          placeholder='Search Social'
           id='n-search'
           value={search}
           onChange={(e)=>setSearch(e.target.value)}

@@ -65,7 +65,7 @@ const Login = () => {
     <div className="container">
         <div className="container-form">
             <form onSubmit={handleSignUp}>
-                <h1>Chatlink Login</h1>
+                <h1>Social Login</h1>
                 <p>Please sign in to continue.</p>
                 <div className="inputBox">
                     <FiMail className='mail'/>

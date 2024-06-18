@@ -24,7 +24,7 @@ const InputPost = ({handleSubmit,
                 <input 
                 type="text" 
                 id="i-input" 
-                placeholder="Post Something to Chatlink"
+                placeholder="Post Something to Social"
                 required
                 value={body}
                 onChange={(e)=>setBody(e.target.value)}
@@ -34,7 +34,7 @@ const InputPost = ({handleSubmit,
      <div className="file-upload">
       <div className="file-icons">
           <label htmlFor="file" className="pv-upload">
-            <PhotoLibraryIcon className="input-svg" style={{fontSize:"38px",color:"orangered"}}/>
+            <PhotoLibraryIcon className="input-svg" style={{fontSize:"38px",color:"royalblue"}}/>
             <span className='photo-dis'>Photo</span>
           </label>
 

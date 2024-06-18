@@ -41,7 +41,7 @@ const SignUp = () => {
     <div className="container">
     <div className="container-form">
         <form onSubmit={handleSignUp}>
-            <h1>Chatlink Sign Up</h1>
+            <h1>Social Sign Up</h1>
             <p>Please fill the input below here.</p>
 
             <div className="inputBox">
